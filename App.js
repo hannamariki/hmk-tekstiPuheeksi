@@ -2,6 +2,8 @@ import { View, StyleSheet, Button, TextInput } from 'react-native';
 import * as Speech from 'expo-speech';
 import { useState } from 'react';
 
+//https://docs.expo.dev/versions/latest/sdk/speech/?redirected
+
 export default function App() {
 
   const [text, setText] = useState('');
